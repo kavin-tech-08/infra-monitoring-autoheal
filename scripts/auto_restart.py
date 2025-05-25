@@ -22,4 +22,4 @@ if __name__ == "__main__":
         print(f"{datetime.datetime.now()}: {container_name} status = {status}")
         restart_container()
     else:
-        print(f"{datetime.datetime.now()}: {container_name} is healthy.")
+        print(f"{datetime.datetime.now()}: {container_name} is up and :healthy.")
